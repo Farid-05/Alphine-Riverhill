@@ -96,8 +96,8 @@ html, body {margin: 0px; padding: 0px; width: 100%; height: 100%;}
   
   @media (max-width: 600px) {
     .custom-iframe {
-    margin-top:80px;
-    margin-bottom:15px;
+      margin-bottom:10px;
+      height: 100%;
     }
   }
 
@@ -114,6 +114,7 @@ html, body {margin: 0px; padding: 0px; width: 100%; height: 100%;}
   }
   @media (max-width: 600px) {
     .custom-column {
+      margin-top:100px;
       height: 200px; /* Customize the height for small devices */
     }
   }
@@ -131,7 +132,7 @@ html, body {margin: 0px; padding: 0px; width: 100%; height: 100%;}
   @media (min-width: 200px) and (max-width: 300px) {
     .custom-column {
       height: 150px; /* Customize the height for medium devices */
-      margin-top: 50px;
+      margin-top: 150px;
     }
   }
  
